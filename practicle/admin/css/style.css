@@ -1,0 +1,83 @@
+﻿   html,body{ margin:0px; padding:0px;}
+   .main{ width:100%; margin-bottom:-20px;}
+   .header{ width:100%; height:100px; color:#fff; background:#d5a2e5; margin:0px;}
+   .footer{ width:100%; height:100px; color:#fff; background:#d5a2e5;margin:0px;}
+   .content{ width:100%; min-height:550px; background:#e5e5e5;  margin-top:-40px; margin-bottom:-40px;}
+   .img{padding-left:0px;}
+   .clear { clear:both;}
+  .sep{ padding:5px;}
+  .reg-form{ margin:0px auto;padding:5px;}
+  .lable{ float:left; margin-right:0px; text-align:right;width:150px;}	
+  .inp-con{ float:left;width:180px;}
+  .menu{width:100%;height:25px;background-color:palevioletred;}
+   .menu_a{padding-right:0px;float: left;text-decoration:none;color:#494949;padding-bottom:0px;}
+   .margin{margin-left: 420px;}
+   .login_margin{margin: 0px auto;}
+   
+   /*User table*/
+
+  .tbl-main{
+    width:926px;
+    border: 1px solid #000;
+    margin: 0 15px;
+	text-align:center;
+  }
+  .tbl-head{
+     width: 158px;
+     padding: 2px;
+     border-bottom: 1px solid #000;
+     border-right: 1px solid #000;
+     float: left;
+     font-weight: bold;
+  }
+  .tbl-data{
+     width: 158px;
+     padding: 2px;
+     border-bottom: 1px solid #000;
+     border-right: 1px solid #000;
+     float: left;
+  }
+  .tab-uname{
+    width: 120px;
+  }
+
+  .tab-email{
+    width: 189px;
+  }
+  .tbl-border{ border-right: 0px solid #000; }
+
+
+/* Admin conversation  table*/
+
+
+.tb-main{
+    width:500px;
+    border: 1px solid #000;
+    margin: 0 15px;
+  text-align:center;
+  }
+
+  .tb-head{
+     width: 168px;
+     padding: 2px;
+     border-bottom: 1px solid #000;
+     border-right: 1px solid #000;
+     float: left;
+     font-weight: bold;
+  }
+  .tb-data{
+     width: 168px;
+     padding: 2px;
+     border-bottom: 1px solid #000;
+     border-right: 1px solid #000;
+     float: left;
+  }
+  .tb-message{
+    width: 160px;
+  }
+  .tb-border{ border-right: 0px solid #000; }
+  .conversation{
+    width:400px;
+    border: 3px solid #000000;
+    margin-left:-50px;
+  }

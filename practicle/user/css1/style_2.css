@@ -1,0 +1,148 @@
+body{
+    font-family: sans-serif,monospace;
+    background: white;
+    text-align: center;
+}
+/* menu */
+#nav{
+    background-color:
+    float: left;
+    margin: 0; padding: 0;
+    border: 0px solid windowframe;
+    boreder-bottom: none;
+    width: 100%;
+    
+}
+#nav li a, #nav li{
+    float: right;
+    width:157px ;
+}
+#nav li{
+    list-style: none;
+    position: relative;
+    
+}
+#nav li{
+    padding: 1em 2em;
+    text-decoration: none;
+    color: black;
+    border-right: 0px solid #3c3c3c;
+    border-left: 0px solid #292929;
+    border-bottom: 0px solid #232323;
+    border-top: 0px solid #545454;
+    
+}
+
+
+
+/* Submenu */
+
+.hasChildren {
+	position: absolute;
+	width: 5px; height: 5px;
+	background: black;
+	right : 0;
+	bottom: 0;
+}
+
+#nav li ul {
+ display: none;
+ position: absolute;
+ left: 0;
+ top: 100%;
+ padding: 0; margin: 0;
+}
+
+#nav li:hover > ul {
+ display: block;
+}
+
+#nav li ul li, #nav li ul li a {
+ float: none;
+}
+
+#nav li ul li {
+ _display: inline; /* for IE6 */
+}
+
+#nav li ul li a {
+ width: 150px;
+ display: block;
+}
+
+/* SUBSUB Menu */
+
+#nav li ul li ul {
+ display: none;
+}
+
+#nav li ul li:hover ul {
+ left: 100%;
+ top: 0;
+}
+
+  .tbl-main{
+    width:926px;
+    border: 1px solid #000;
+    margin: 0 15px;
+    text-align:center;
+  }
+  .tbl-head{
+     width: 158px;
+     padding: 2px;
+     border-bottom: 1px solid #000;
+     border-right: 1px solid #000;
+     float: left;
+     font-weight: bold;
+  }
+  .tbl-data{
+     width: 158px;
+     padding: 2px;
+     border-bottom: 1px solid #000;
+     border-right: 1px solid #000;
+     float: left;
+  }
+  .tab-uname{
+    width: 120px;
+  }
+
+  .tab-email{
+    width: 189px;
+  }
+  .tbl-border{ border-right: 0px solid #000; }
+
+
+/* Admin conversation  table*/
+
+
+.tb-main{
+    width:500px;
+    border: 1px solid #000;
+    margin: 0 15px;
+  text-align:center;
+  }
+
+  .tb-head{
+     width: 168px;
+     padding: 2px;
+     border-bottom: 1px solid #000;
+     border-right: 1px solid #000;
+     float: left;
+     font-weight: bold;
+  }
+  .tb-data{
+     width: 168px;
+     padding: 2px;
+     border-bottom: 1px solid #000;
+     border-right: 1px solid #000;
+     float: left;
+  }
+  .tb-message{
+    width: 160px;
+  }
+  .tb-border{ border-right: 0px solid #000; }
+  .conversation{
+    width:400px;
+    border: 3px solid #000000;
+    margin-left:-50px;
+  }

@@ -1,0 +1,201 @@
+﻿   html,body{ margin:0px;padding:0px;}
+   .main{ width:100%; margin-top:-20px; }
+   .header{ width:100%; height:100px; color:#000; background:lightblue;}
+   .footer{ width:100%; height:100px; color:#000; background:lightblue;}
+   .content{ width:100%; min-height:520px; background:#e5e5e5;  margin-top:-40;margin-bottom:-40px;}
+   .img{padding-left:0px; float:left; border:0px solid #FFffff; }
+   .clear { clear:both;}
+  .sep{ padding:5px;}
+  .reg-form{ margin:0px auto;padding:5px;}
+  .lable{ float:left; margin-right:3px; text-align:right;width:150px;}	
+  .inp-con{ float:left;width:inherit;}
+  .menu{width:100%;height:25px;background-color:;}
+   .menu_a{padding-right:0px;float: left;text-decoration:none;color:;padding-bottom:0px;}
+   .margin{margin-left: 420px;}
+   .login_margin{margin: 0px auto;}
+   
+    /*User table*/
+
+  .tbl-main{
+    width:600px;
+    border: 1px solid #000;
+    margin: 0 15px;
+  }
+  .tbl-head{
+     width: 200px;
+     padding: 2px;
+     border-bottom: 1px solid #000;
+     border-right: 1px solid #000;
+	 border-left: 1px solid #000;
+     float: left;
+     font-weight: bold;
+  }
+  .tbl-data{
+     width: 198px;
+     padding: 2px;
+     border-bottom: 1px solid #000;
+     border-right: 1px solid #000;
+	  border-left: 1px solid #000;
+     float: left;
+  }
+  .tab-aname{
+    width: 130px;
+  }
+
+  .tab-aimage{
+    width: 189px;
+  }
+  .tbl-border{ border-right: 0px solid #000; }
+/*Album Management */
+
+.tb2-main{
+    width:800px;
+    border: 1px solid #000;
+    margin: 0 15px;
+  }
+  
+  .tb2-head{
+     width: 200px;
+     padding: 2px;
+     border-bottom: 1px solid #000;
+     border-right: 1px solid #000;
+	 border-left: 1px solid #000;
+     float: left;
+     font-weight: bold;
+  }
+   .tb2-data{
+     width: 198px;
+     padding: 2px;
+     border-bottom: 1px solid #000;
+     border-right: 1px solid #000;
+	  border-left: 1px solid #000;
+     float: left;
+  }
+ .tab-aname{
+    width: 140px;
+  }
+
+  .tab-aimage{
+    width: 150px;
+  }
+  .tb2-border{ border-right: 1px solid #000; }
+
+/* Menu */
+
+
+
+#primary_nav_wrap
+{
+	margin-top:15px
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#ddd
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background:#46FF87
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+
+
+
+.conv{
+    width:400px;
+    border: 3px solid #000000;
+    margin-left:-50px;
+  }
+  .tb-main{
+    width:500px;
+    border: 1px solid #000;
+    margin: 0 15px;
+  text-align:center;
+  }
+
+  .tb-head{
+     width: 168px;
+     padding: 2px;
+     border-bottom: 1px solid #000;
+     border-right: 1px solid #000;
+     float: left;
+     font-weight: bold;
+  }
+  .tb-data{
+     width: 168px;
+     padding: 2px;
+     border-bottom: 1px solid #000;
+     border-right: 1px solid #000;
+     float: left;
+  }
+  .tb-message{
+    width: 160px;
+  }
+  .tb-border{ border-right: 0px solid #000; }
+  .conversation{
+    width:400px;
+    border: 3px solid #000000;
+    margin-left:-50px;
+  }
